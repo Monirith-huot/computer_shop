@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid white;
+}
+
+.nav-item {
+    margin: 1rem 2rem;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 3rem;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu-icon{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin: 40px;
+}
+
+
+.sub-section-text {
+    padding: 40px
+}
+
+.heading-section {
+    margin-top: 50px;
+    color: #fff;
+}
+
+.calalog-margin {
+    margin-top: 5rem;
+}
+
+.link-to-products {
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+}
+
+
+.access-img {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.footer {
+    margin-top: 5rem;
+    background-color: #000!important;
+}
+.fab {
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+
+.to-top {
+    background: #000;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+.to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+}
+.to-top:hover{
+    color: #fff;
+}
+/* body {
+    background-image: url("https://images.unsplash.com/photo-1538503529202-7a0e79cbb6f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding-bottom: 75px; 
+    margin: 0px
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 21px; 
+}
+
+.page-title {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 6px; 
+    color: #fff;
+}
+
+.page-description {
+    max-width: 465px;
+    font-size: 18px;
+    margin-bottom: 59px;
+    color: #fff; 
+}
+
+.social-link {
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 16px;
+    transition: all 0.3s ease-in-out; 
+}
+
+.social-link:last-child {
+    margin-right: 0; 
+}
+
+.social-link:hover {
+    text-decoration: none;
+    transform: scale(1.5);
+    color: #fff;
+}
+
+h2 {
+    color: #ffffff;
+}
+p {
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    body {
+    padding-bottom: 110px; } 
+}
+    
+@media (max-width: 767px) {
+    .page-title {
+    font-size: 35px;
+    margin-bottom: 14px; } 
+}
+@media (max-width: 767px) {
+    .page-description {
+    font-size: 14px; } } */
